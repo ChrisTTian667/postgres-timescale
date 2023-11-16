@@ -1,0 +1,1 @@
+timescaledb-tune --quiet --yes >> /var/lib/postgresql/data/postgresql.conf
