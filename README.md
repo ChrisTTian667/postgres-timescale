@@ -85,10 +85,6 @@ docker run -d \
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Known Issues
-
-- Sorting behavior issues with Alpine-based PostgreSQL images: [https://github.com/timescale/timescaledb/issues/448](https://github.com/timescale/timescaledb/issues/448)
-
 ## Contributing
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
