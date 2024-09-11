@@ -63,6 +63,7 @@ To run the container:
 docker run -d \
     -p 5432:5432 \
     --name postgres-timescale \
+    -e POSTGRES_PASSWORD=yourpassword \
     ghcr.io/hoffmann-dsd/postgres-timescale:latest
 ```
 
@@ -75,7 +76,9 @@ docker run -d \
     -p 5432:5432 \
     -v /path/to/your/data:/var/lib/postgresql/data \
     --name postgres-timescale \
+    -e POSTGRES_PASSWORD=yourpassword \
     ghcr.io/hoffmann-dsd/postgres-timescale:latest
+
 ```
 
 ## License
